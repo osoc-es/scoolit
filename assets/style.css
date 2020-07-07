@@ -1,0 +1,9 @@
+html, body{
+    float: none;
+    margin: 0px;
+    padding: 0px;
+}
+.fullScreen{
+    min-height: 90vh!important;
+    height: 90vh!important;
+}
