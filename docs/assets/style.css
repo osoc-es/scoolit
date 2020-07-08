@@ -6,7 +6,6 @@ html, body{
 }
 .asap{
     font-family: 'Asap', sans-serif!important;
-
 }
 .fullScreen{
     min-height: 80vh!important;
@@ -96,4 +95,7 @@ a{
 .active{
     background-color: #6633ff!important;
     color:#ffffff!important;
+}
+nav.navbar {
+    padding: 2rem inherit;
 }
