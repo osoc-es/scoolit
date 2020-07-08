@@ -6,7 +6,6 @@ html, body{
 }
 .asap{
     font-family: 'Asap', sans-serif!important;
-
 }
 .fullScreen{
     min-height: 80vh!important;
@@ -96,4 +95,34 @@ a{
 .active{
     background-color: #6633ff!important;
     color:#ffffff!important;
+}
+.navbar img{
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+h2{
+    margin-bottom: 1em;
+}
+p{
+    margin-bottom: 1rem;
+    text-align: left;
+}
+img.card-img-top{
+    padding: 1rem;
+}
+footer img {
+    max-width: 6rem;
+}
+footer{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+.team{
+    margin-bottom: 2rem;
+}
+.team img {
+    margin-bottom: .5rem;
+}
+.scoolitButton{
+    margin-top: 2rem;
 }
