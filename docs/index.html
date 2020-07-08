@@ -14,27 +14,35 @@
   <body data-spy="scroll" data-target="#navbarScrollSpy" data-offset="70">
     <nav  class="navbar fixed-top bg-light" id="navbarScrollSpy">
       <div class="container mx-auto">
-            <h3 class="navbar-brand asap">Scoolit</h3>
+            <div class="navbar-brand asap">
+              <img src="./assets/logos/scoolit.png" alt="">
+            </div>
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#home">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#demo">Demo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#team">Team</a>
+              <a class="nav-link" href="#team">Equipo</a>
             </li>
           </ul>
       </div>
     </nav>
-    <div class="container mt-3"  data-spy="scroll" data-target="#navbarScrollSpy" data-offset="0">
+    <div class="container mt-3"  data-spy="scroll" data-target="#navbarScrollSpy" data-offset="70">
         <div id="home">
             <div class="row mb-5 ">
                 <div class="col-xs-12 col-md-6">
                     <h1 class="title">Scoolit</h1>
                     <p class="text-justify  mt-3">
-                        Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Nunc tempus euismod nisl, eu dignissim lectus mollis eget. Vivamus auctor, lectus fringilla placerat rhoncus, nisl odio faucibus ipsum, a interdum libero nulla eget nunc. Integer ac mattis magna, quis iaculis risus. Vivamus sit amet laoreet mauris.                     </p>
+
+                      En Scoolit creemos que no tiene sentido cambiar los libros
+                      de texto cada año. El temario apenas varía y muchas veces se pueden usar libros
+                      de cursos anteriores. Por eso hemos creado una red de apoyo mutuo para la educación, 
+                      donde los usuarios podrán intercambiar material, recursos y conocimientos.  
+                      Evitando así gastos innecesarios y fomentando un modelo de vida basado en la reutilización.
+                    </p>
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -48,25 +56,28 @@
               <div class="card border-light">
                 <img src="./assets/illustrations/undraw_bookshelves_xekd.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Explore</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Explora</h5>
+                  <p class="card-text">
+                    Visita nuestro catalogo de libros y encuenrta el que necesites para el curso que viene.
+                  </p>
                 </div>
               </div>
               <div class="card border-light">
                 <img src="./assets/illustrations/undraw_book_lover_mkck.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Learn</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Aprende</h5>
+                  <p class="card-text">
+                    Gracias a nuestros donantes podrás recibir una educación de calidad, sin tener que gastarte ni 1 Euro en material.
+                   </p>
                 </div>
               </div>
               <div class="card border-light">
                 <img src="./assets/illustrations/undraw_circles_y7s2.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Contribute</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Contribuye</h5>
+                  <p class="card-text">
+                    Una vez hayas terminado el curso, vuelve a donar el libro que te prestaron. !Para que más gente tu pueda seguir aprendiendo!.
+                  </p>
                 </div>
               </div>
             </div>   
@@ -75,10 +86,16 @@
             <hr>
             <!-- ODS -->
             <div class="my-5">
-              <h2>Objetivos de Desarrollo Sostenible</h2>
+              <h2>
+                <span class="badge">
+                  <img src="./assets/logos/ods.png" alt="" class="img-fluid imgBadge">
+                </span>
+                Objetivos de Desarrollo Sostenible
+              </h2>
               <p class="text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus euismod nisl, eu dignissim lectus mollis eget. Vivamus auctor, lectus fringilla placerat rhoncus, nisl odio faucibus ipsum, a interdum libero nulla eget nunc.
+                En 2015, la ONU aprobó la Agenda 2030 sobre el Desarrollo Sostenible, una oportunidad para que los países y sus sociedades emprendan un nuevo camino con el que mejorar la vida de todos, sin dejar a nadie atrás. La Agenda cuenta con 17 Objetivos de Desarrollo Sostenible, que incluyen desde la eliminación de la pobreza hasta el combate al cambio climático, la educación, la igualdad de la mujer, la defensa del medio ambiente o el diseño de nuestras ciudades.              
               </p>
+              <a target="_blank" href="https://www.un.org/sustainabledevelopment/es/"><button class="btn scoolitButton">Leer Más</button></a>
             </div>
             <div class="my-5 row">
                 <div class="col-xs-12 col-lg-3">
@@ -139,7 +156,7 @@
                     </div>                    
                     <div class="modal-footer">
                       <a href="https://www.un.org/sustainabledevelopment/es/education/" target="_blank">
-                        <button class="btn btn-primary">
+                        <button class="btn scoolitButton">
                           Aprender Más
                         </button>
                       </a>
@@ -171,7 +188,7 @@
                     </div>                    
                     <div class="modal-footer">
                       <a href="https://www.un.org/sustainabledevelopment/es/inequality/" target="_blank">
-                        <button class="btn btn-primary">
+                        <button class="btn scoolitButton">
                           Aprender Más
                         </button>
                       </a>
@@ -199,7 +216,7 @@
                     </div>                    
                     <div class="modal-footer">
                       <a href="https://www.un.org/sustainabledevelopment/es/cities/" target="_blank">
-                        <button class="btn btn-primary">
+                        <button class="btn scoolitButton">
                           Aprender Más
                         </button>
                       </a>
@@ -227,7 +244,7 @@
                     </div>                    
                     <div class="modal-footer">
                       <a href="https://www.un.org/sustainabledevelopment/es/sustainable-consumption-production/" target="_blank">
-                        <button class="btn btn-primary">
+                        <button class="btn scoolitButton">
                           Aprender Más
                         </button>
                       </a>
@@ -242,10 +259,10 @@
             <div class="my-5">
                 <h2>¿Quieres Ayudar?</h2>
                 <p class="text-justify">
-                  Aqui explicamos un poco para que queremos la info de la encuesta, blah blah blah... Y que si nos quieren contactar manden un mail a esa direccion
+                  ¡Queremos escucharte! Por ello, te invitamos a rellenar una encuesta de cara a cubrir nuevas necesidades y mejorar nuestra iniciativa. Sólo serán unos minutos...
                 </p>
                 <h5 class="my-3">Contacto: <a href="#" class="asap">hola@scoolit.es</a></h5>
-                <Button class="btn btn-primary my-3">Rellenar Encuesta</Button>
+                <Button class="btn scoolitButton my-3">Rellenar Encuesta</Button>
             </div>
             <!-- END SURVEY -->
         </div><!--END HOME -->
@@ -256,9 +273,9 @@
               <div class="col-xs-12 col-lg-6">
                   <h2 class="title">Start to explore</h2>
                   <p class="text-justify mt-3">
-                      Currently we only support the scholar books exchange, you can upload your old books or explore our catalog to find the book you need. Once you complete your course you can upload it again to help more people!.
+                      Actualmente solo tenemos disponible el intercambio de libros escolares, puedes explorar nuestro catálogo para encontrar el libro que necesitas. Cuando hayas terminado el curso puedes subir otra vez el libro a la plataforma ¡para ayudar a más gente!
                   </p>
-                  <button class="btn btn-primary">Check The Demo</button>
+                  <button class="btn scoolitButton">¡Prueba el Demo!</button>
               </div>
               <div class="colxs-12 col-lg-6">
                 <img src="./assets/illustrations/undraw_web_devices_ad58.svg" alt="" class="img-fluid">
@@ -335,7 +352,6 @@
               </div>
           </div>
         </div>
-        <hr>
         <!-- END TEAM -->
       </div><!-- END CONTAINER -->
 
@@ -343,15 +359,16 @@
       <footer class="bg-light py-1">
         <div class="row container mx-auto">
           <div class="col-2">
-            <h3>Scoolit</h3>
-          </div>
-          <div class="col-10">
+            <div class="navbar-brand asap">
+              <img src="./assets/logos/scoolit.png" alt="">
+            </div>          </div>
+          <div class="col-10 my-auto">
             <ul class="nav justify-content-end">
               <li class="nav-item">
                 <a class="nav-link" href="#">Twitter</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/#demo">Demo</a>
+                <a class="nav-link" href="#">Demo</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Source Code</a>

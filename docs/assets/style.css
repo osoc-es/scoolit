@@ -76,3 +76,24 @@ p{
     border-radius: 50%;
     width: 150px!important;
 }
+.imgBadge{
+    width: 50px!important;
+}
+.scoolitButton{
+    background-color: #6633ff!important;
+    color:#ffffff!important;
+    transition: 0.5s;
+    font-family: 'Asap', sans-serif!important;
+
+}
+.scoolitButton:hover{
+    background-color: #906bff!important;
+}
+a{
+    color: #6633ff!important;
+    font-family: 'Asap', sans-serif!important;
+}
+.active{
+    background-color: #6633ff!important;
+    color:#ffffff!important;
+}
