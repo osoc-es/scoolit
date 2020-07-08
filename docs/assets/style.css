@@ -97,9 +97,28 @@ a{
     color:#ffffff!important;
 }
 .navbar img{
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
 }
 h2{
     margin-bottom: 1em;
+}
+p{
+    margin-bottom: 1rem;
+}
+img.card-img-top{
+    margin: .3rem;
+}
+footer img {
+    max-width: 3rem;
+}
+footer{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+.team{
+    margin-bottom: 1rem;
+}
+.team img {
+    margin-bottom: .5rem;
 }
