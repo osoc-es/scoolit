@@ -107,7 +107,7 @@ p{
     margin-bottom: 1rem;
 }
 img.card-img-top{
-    margin: .3rem;
+    padding: .3rem;
 }
 footer img {
     max-width: 3rem;
