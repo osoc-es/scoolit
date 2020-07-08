@@ -96,6 +96,7 @@ a{
     background-color: #6633ff!important;
     color:#ffffff!important;
 }
-.navbar {
-    margin: 1rem inherit;
+.navbar img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
