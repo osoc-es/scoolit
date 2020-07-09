@@ -1,11 +1,11 @@
 html, body{
     float: none;
     margin: 0px;
-    padding-top: 70px;
     scroll-behavior: smooth!important;
 }
 .asap{
     font-family: 'Asap', sans-serif!important;
+
 }
 .fullScreen{
     min-height: 80vh!important;
@@ -14,6 +14,11 @@ html, body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Asap', sans-serif!important;
     font-weight: 600!important;
+}
+.logo{
+    font-style: italic!important;
+    font-weight: 700;
+    
 }
 p{
     font-family: 'Asap', sans-serif!important;
@@ -79,50 +84,44 @@ p{
     width: 50px!important;
 }
 .scoolitButton{
-    background-color: #6633ff!important;
+    background-color: #0a6347!important;
     color:#ffffff!important;
     transition: 0.5s;
     font-family: 'Asap', sans-serif!important;
 
 }
 .scoolitButton:hover{
-    background-color: #906bff!important;
+    background-color: #1e8866!important;
 }
 a{
-    color: #6633ff!important;
+    color: #0a6347!important;
     font-family: 'Asap', sans-serif!important;
+    font-weight: 500!important;
 }
 .active{
-    background-color: #6633ff!important;
+    background-color: #0a6347!important;
     color:#ffffff!important;
 }
-.navbar img{
-    margin-top: .3rem;
-    margin-bottom: .3rem;
+.scroll{
+    padding-top: 70px!important;
 }
-h2{
-    margin-bottom: 1em;
+.greenBg{
+    background-color: #0a6347!important;
 }
-p{
-    margin-bottom: 1rem;
-    text-align: left;
+.green{
+    color:#0a6347!important;
 }
-img.card-img-top{
-    padding: 1rem;
+.greenBgMint{
+    background-color: #f7fffb!important;
 }
-footer img {
-    max-width: 6rem;
+.border-mint{
+    border-color:#f7fffb!important;
 }
-footer{
-    margin-top: 2rem;
-    padding-bottom: 1rem;
+.imgLogo{
+    width: 150px!important;
 }
-.team{
-    margin-bottom: 2rem;
-}
-.team img {
-    margin-bottom: .5rem;
-}
-.scoolitButton{
-    margin-top: 2rem;
+@media (max-width: 700px) { 
+    .imgLogo{
+        width: 70px!important;
+    }
 }
